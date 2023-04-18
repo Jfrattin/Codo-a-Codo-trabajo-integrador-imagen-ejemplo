@@ -1,0 +1,131 @@
+.body-pag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-oradores{
+    padding: 1rem;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position: relative;
+}
+
+.oradores-title{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: revert;
+    font-weight: 700;
+}
+
+.bodyimg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/ba1.jpg");
+    filter:brightness(95%);
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.body-text{
+    margin-top: 18rem;
+    margin-right: 10rem;
+    width: 40%;
+    height: 30%;
+    color: white;
+    padding: 0.2rem;
+    margin-bottom: 30rem;
+    text-align: right;
+
+}
+
+.text-title{ 
+    font-size: 4rem;
+    font-family: system-ui;
+    font-weight: bolder;
+}
+
+.text-description{
+    font-size: 1.8rem;
+    font-family: system-ui;
+    font-weight: bolder;
+}
+
+.sedes{
+    margin-top: 10rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.sedes-images{
+    width: 54%;
+    height: 30rem;
+}
+
+.sedes-images img{
+    image-rendering: crisp-edges;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.sedes-body{
+    
+    margin: 0.1rem;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    background-color: rgb(97, 96, 96);
+
+}
+
+.titlesedes{
+    color: white;
+    font-weight: 700;
+    font-size:xx-large;
+}
+
+.bodysedes{
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12,75,96);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 200;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: large;
+
+}
+
+.form-title{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: revert;
+    font-weight: 700;
+}
+
+.form-description{
+    text-align: center;
+    font-size: large;
+    font-family: revert;
+    font-weight: 700;
+}
